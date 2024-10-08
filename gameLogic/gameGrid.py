@@ -8,7 +8,7 @@ class GameGrid(QWidget):
     def __init__(self, parent : object, fileLocation : str) -> None:
         super().__init__(parent)
 
-        self.CSS = self.getFileContents('css\grid.css')
+        self.CSS = self.getFileContents('css/grid.css')
 
         self.parent = parent
         

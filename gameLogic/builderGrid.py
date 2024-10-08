@@ -6,7 +6,7 @@ class BuilderGrid(QWidget):
     def __init__(self, parent : object, gridSize : int = 5) -> None:
         super().__init__(parent)
 
-        self.CSS = self.getFileContents('css\grid.css')
+        self.CSS = self.getFileContents('css/grid.css')
 
         self.parent = parent
 
