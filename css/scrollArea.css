@@ -1,0 +1,14 @@
+QScrollArea{
+    border: 0px
+}
+
+QPushButton{
+    border-radius: 20%;
+    border: 0px;
+    font: 15px;
+    text-align: left;
+}
+
+QPushButton:hover{
+    border: 3px solid black;
+}

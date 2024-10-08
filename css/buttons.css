@@ -1,0 +1,41 @@
+QLabel{
+    font: 50px;
+    text-align: center;
+}
+
+QPushButton{
+    border-radius: 25%;
+}
+
+QPushButton#backButton{
+    font-size: 30px;
+    border: 0px;
+}
+QPushButton#backButton:hover{
+    border: 5px solid black;
+}
+
+QPushButton#playerButton{
+    background-color: red;
+}
+
+QPushButton#wallButton{
+    background-color: black;
+}
+
+QPushButton#endTileButton{
+    border: 10px solid lightblue;
+}
+
+QPushButton#eraseButton{
+    border: 10px solid black;
+}
+
+QPushButton.gridButton, QPushButton#saveButton{
+    border: 0px;
+    font-size: 30px;
+}
+
+QPushButton.gridButton:hover, QPushButton#saveButton:hover{
+    border: 5px solid black;
+}

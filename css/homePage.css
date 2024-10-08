@@ -1,0 +1,14 @@
+QPushButton{
+    border: 0px;
+    font-size: 40px;
+}
+
+QPushButton:hover{
+    border: 5px solid black;
+    border-radius: 25%;
+    font-size: 40px;
+}
+
+QLabel{
+    font-size: 60px;
+}
